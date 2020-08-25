@@ -1,0 +1,59 @@
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('fonts/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('fonts/raleway-variablefont_wght-webfont.woff') format('woff');
+    src: url('fonts/raleway-variablefont_wght-webfont.ttf') format('truetype');       
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Eléments principaux de la page */
+
+body
+{
+	font-family: Raleway, Arial, sans-serif;
+	color: #181818;
+	margin: 0;
+
+}
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer
+{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #F2F2F2;
+    padding-top: 25px;
+}
+
+#a_propos
+{
+    width: 30%;
+}
+
+#nos_hebergements
+{
+    width: 30%;
+}
+
+#assistance
+{
+   width: 30%;
+}
+
+#footers_liens
+{
+	
+}
