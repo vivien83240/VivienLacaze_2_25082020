@@ -17,5 +17,43 @@ body
 {
 	font-family: Raleway, Arial, sans-serif;
 	color: #181818;
+	margin: 0;
+
 }
 
+
+
+
+
+
+
+
+/* Footer */
+
+footer
+{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #F2F2F2;
+    padding-top: 25px;
+}
+
+#a_propos
+{
+    width: 30%;
+}
+
+#nos_hebergements
+{
+    width: 30%;
+}
+
+#assistance
+{
+   width: 30%;
+}
+
+#footers_liens
+{
+	
+}
