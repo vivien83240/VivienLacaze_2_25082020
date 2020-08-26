@@ -11,7 +11,7 @@
 
 }
 
-*
+/*
 {
 	margin: 0;
 }
@@ -30,6 +30,17 @@ h1
 	font-size: 1.3em;
 	font-weight: 900;
 
+}
+
+p
+{
+    font-size: 0.9em;
+}
+
+#bloc_page
+{
+    width: 1340px;
+    margin: auto;
 }
 
 
@@ -66,7 +77,7 @@ nav a
 {
     font-size: 1em;
     color: black;
-    padding-bottom: 3px;
+    padding-bottom: 1px;
     text-decoration: none;
 }
 
