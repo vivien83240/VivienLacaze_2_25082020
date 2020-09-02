@@ -23,8 +23,7 @@ body
 	font-family: Raleway, Arial, sans-serif;
 	color: #181818;
     width: 100%;
-    margin: auto;
-
+    
 }
 
 h1
@@ -34,9 +33,19 @@ h1
 
 }
 
+h2
+{
+    font-size: 1.1em;
+}
+
+h3
+{
+    font-size: 1em;
+}
+
 p
 {
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 
@@ -93,9 +102,32 @@ nav a:hover
 
 /* Corps /////////////////////////////////////////////////////////////////////////////////*/
 
+#filtres
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 70%;
+}
+
+.icons_filtres
+{
+    size: 3px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+
+
 #section2
 {
     display: flex;
+    justify-content: space-around;
+
 }
 
 section article
@@ -103,7 +135,7 @@ section article
     background-color: #F2F2F2;
     border-radius: 20px;
     width: 70%;
-    margin: auto;
+    
 
 }
 
@@ -111,9 +143,37 @@ section aside
 {
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 30%;
-    margin: auto;
+    width: 25%;
+    
 }
+
+
+section article ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+section article ul li a img
+{
+
+   max-height: 200px;
+   border-radius: 20px 20px 0 0;
+
+}
+
+section aside ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+section aside ul li a img
+{
+    width: 200px;
+   height: 100px;
+}
+
 
 #hebergements_block
 {
@@ -121,18 +181,23 @@ section aside
     justify-content: space-around;
     flex-wrap: wrap;
 
-
 }
 
 
 .hebergements
 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 30%;
+    background-color: white;
+    border-radius: 20px;
     margin: auto;
 
 }
+
+
 
 
 #populaires_block
@@ -149,6 +214,28 @@ section aside
     flex-direction: column;
 }
 
+
+#activites_block
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 100%;
+    margin: auto;
+
+}
+
+.activites
+{
+    width: 23%;
+    margin: auto;
+}
+
+section ul li figure a
+{
+    text-decoration: none;
+    color: black;
+}
 
 
 .stars 
@@ -185,17 +272,17 @@ footer
 
 #a_propos
 {
-    width: 30%;
+    width: 28%;
 }
 
 #nos_hebergements
 {
-    width: 30%;
+    width: 28%;
 }
 
 #assistance
 {
-   width: 30%;
+   width: 28%;
 }
 
 #footers_liens
