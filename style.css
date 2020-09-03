@@ -8,7 +8,6 @@
     src: url('fonts/raleway-variablefont_wght-webfont.ttf') format('truetype');       
     font-weight: 500;
     font-style: normal;
-
 }
 
 /*
@@ -52,8 +51,8 @@ p
 
 
 
-
 /* Header ////////////////////////////////////////////////////////////////////////////////////////*/
+
 
 header
 {
@@ -70,7 +69,9 @@ body header img
 }
 
 
+
 /* Navigation ///////////////////////////////////////////////////////////////////////////////////*/
+
 
 nav ul
 {
@@ -107,10 +108,11 @@ nav a:hover
 }
 
 
+
 /* Corps /////////////////////////////////////////////////////////////////////////////////*/
 
-
 /* Corps ////// SECTION 1 ////////////////////////////////////////////////////////////////*/
+
 
 #section1
 {
@@ -121,13 +123,13 @@ section#section1 p
 {
     margin-top: -10px;
     margin-bottom: 20px;
-    
+    margin-left: 0;
 }
+
 
 .formulaire
 {
      margin-bottom: 25px;
-
 }
 
 .fa-map-marker-alt
@@ -135,7 +137,6 @@ section#section1 p
     background-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
     padding: 16px 18px 16px 18px;
-
 }
 
 .champ
@@ -156,7 +157,6 @@ section#section1 p
     border-radius: 0px 15px 15px 0;
     border: 0;
     padding: 15px 15px 15px 15px;
-
 }
 
 
@@ -189,8 +189,6 @@ section#section1 p
 {
     padding-right: 20px;
     padding-left: 15px;
-    
-
 }
 
 .icons_filtres
@@ -241,7 +239,6 @@ section article
     border-radius: 20px;
     width: 60%;
     padding: 20px 40px 0px 40px;   
-
 }
 
 section article ul li a
@@ -257,7 +254,6 @@ section article ul li a img
    border-radius: 20px 20px 0 0;
    margin: 0;
    padding: 0;
-
 }
 
 #section2 article a
@@ -268,7 +264,7 @@ section article ul li a img
 
 li.hebergements h3,p,ul.stars
 {
-    margin: 5px 0 0 35px;
+    margin: 5px 0 0 10px;
 }
 
 
@@ -279,8 +275,6 @@ li.hebergements h3,p,ul.stars
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0;
- 
-
 }
 
 
@@ -297,7 +291,7 @@ li.hebergements h3,p,ul.stars
     box-shadow: 0px 1px 10px silver;
     margin: auto;
     overflow: hidden;
-    padding: 0px;
+    padding: 0 0 5px 0;
     margin: 0 0px 30px 0;
     box-shadow: 0px 1px 10px silver;
 }
@@ -312,8 +306,6 @@ section aside
     border-radius: 20px;
     width: 30%;
     padding: 20px 0px 0px 0px;
-
-    
 }
 
 section aside ul li a
@@ -347,7 +339,6 @@ section aside ul li a img
     box-shadow: 0px 1px 10px silver;
     padding: 0;
     margin: 0 40px 20px 40px;
-
 }
 
 
@@ -357,10 +348,8 @@ section aside ul li a img
 
 
 #section3
-{
-    
+{ 
     padding: 50px 50px 50px 50px;
-
 }
 
 #activites_block
@@ -409,7 +398,6 @@ section ul li figure figcaption
 .stars 
 {
     display: inline-flex;
-    font-size: 1em;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -419,11 +407,13 @@ section ul li figure figcaption
 .fa-star 
 {
     color: gray;
+    font-size: 0.8em;
 }
 
 .fa-star.gold 
 {
     color: #0065FC;
+    font-size: 0.8em;
 }
 
 
@@ -442,7 +432,6 @@ footer
 {
     display: flex;
     padding-left: 0;
-
 }
 
 #a_propos
@@ -483,21 +472,3 @@ footer
     text-decoration: none;
     color: black;
 }
-
-
-/*EXEMPLE chemin CSS
-section form.formulaire input.button[type="button"]{
-
-}
-
-ul#hebergements_block{
-
-}
-
-#hebergements_block li {
-
-}
-
-#hebergements_block li a {
-
-}*/
