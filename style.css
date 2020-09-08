@@ -407,6 +407,7 @@ li.populaires ul.stars
     box-shadow: 0px 1px 10px silver;
 }
 
+
 .activites figure img
 {
     height: 450px;
@@ -429,7 +430,6 @@ li.populaires ul.stars
 
 .activites2 figure
 {
-    min-height: ;
     height: 45%;
     border-radius: 20px;
     overflow: hidden;
