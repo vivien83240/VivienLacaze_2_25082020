@@ -81,11 +81,6 @@ nav ul
     margin-bottom: 41px;
 }
 
-nav li
-{   
-    
-}
-
 nav a
 {
     font-size: 1em;
@@ -170,14 +165,23 @@ section#section1 p
 #filtres
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     list-style-type: none;
-    width: 70%;
+    width: ;
     margin: 0px 0 0px 0;
-    padding: 5px 0 5px 0;
+    padding: 5px 0px 5px 0;
 }
 
+#filtres li
+{
+    margin: 0 50px 0 0;
+}
+
+#filtres li h2
+{
+    padding: 0 0 5px 0;
+}
 
 #filtres li a
 {
@@ -188,21 +192,18 @@ section#section1 p
     border-radius: 100px;
     padding: 10px 0 10px 0;
     margin: 0;
-
 }
 
 #filtres li a:hover
 {
    background-color: #0065FC;
    color: white;
-
 }
 
 
 .filtres_text
 {
-    padding-right: 20px;
-    padding-left: 10px;
+    padding: 0 20px 0 10px;
 }
 
 #filtres li a i
@@ -220,7 +221,6 @@ section#section1 p
     color: #0065FC;
     background: #DEEBFF;
     padding: 13px 13px 13px 13px;
-    
     position: relative;
     left: -4px;
 }
@@ -252,6 +252,9 @@ section#section1 p
 }
 
 
+/* Corps ////// SECTION 2 //////HEBERGEMENTS///////////////////////////////////////////////*/
+
+
 section#section2 article
 {
     background-color: #F2F2F2;
@@ -279,7 +282,6 @@ section#section2 article a
 {
     text-decoration: none;
     color: black;
-    
 
 }
 
@@ -287,7 +289,6 @@ li.hebergements h3,p,ul.stars
 {
     margin: 5px 0 0 10px;
 }
-
 
 
 #hebergements_block
@@ -317,7 +318,7 @@ li.hebergements h3,p,ul.stars
 }
 
 
-
+/* Corps ////// SECTION 2 //////POPULAIRES///////////////////////////////////////////////*/
 
 
 section#section2 aside
@@ -364,7 +365,6 @@ li.populaires ul.stars
     padding: 30px 0 0 0;
 }
 
-
 #populaires_block
 {
     display: flex;
@@ -372,7 +372,6 @@ li.populaires ul.stars
     flex-direction: column;
     padding: 0;
 }
-
 
 .populaires
 {
@@ -389,7 +388,7 @@ li.populaires ul.stars
 
 
 
-/* Corps ////// SECTION 3 ////////////////////////////////////////////////////////////////*/
+/* Corps ////// SECTION 3 - ACTIVITES ////////////////////////////////////////////////////////*/
 
 
 
