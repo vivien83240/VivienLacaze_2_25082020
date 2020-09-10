@@ -161,7 +161,6 @@ section#section1 p
 
 
 
-
 #filtres
 {
     display: flex;
@@ -366,7 +365,9 @@ section#section2 aside ul li figure img
 
 section#section2 aside h1
 {
-    padding: 0 0 0 35px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px 0 35px;
 }
 
 li.populaires a h3,p,ul.stars
@@ -462,7 +463,6 @@ li.populaires ul.stars
 .activites2 figure img
 {
     width: 100%;
-    
 }
 
 .activites2 figure figcaption
