@@ -263,31 +263,45 @@ section#section2 article
     padding: 20px 40px 0px 40px;   
 }
 
+
+section#section2 article ul li figure
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+section#section2 article ul li figure img
+{
+   max-width: 100%;
+   border-radius: 15px 15px 0 0;
+}
+
 section#section2 article ul li a
 {
     text-decoration: none;
     color: black;
 }
 
-section#section2 article ul li a img
+li.hebergements a h3
 {
-   width: 100%;
-   max-height: 120px;
-   border-radius: 15px 15px 0 0;
-   margin: 0;
-   padding: 0;
+    margin: 10px 30px 0 20px;
+}
+
+li.hebergements a p
+{
+    margin: 5px 30px 0 20px;
+}
+
+li.hebergements a ul.stars
+{
+    margin: 5px 30px 0 20px;
 }
 
 section#section2 article a
 {
     text-decoration: none;
     color: black;
-
-}
-
-li.hebergements h3,p,ul.stars
-{
-    margin: 5px 0 0 10px;
 }
 
 
@@ -305,16 +319,16 @@ li.hebergements h3,p,ul.stars
 {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     width: 30%;
+    height: 200px;
     background-color: white;
     border: 4px solid white;
     border-radius: 20px;
     box-shadow: 0px 1px 10px silver;
     overflow: hidden;
     padding: 0 0 5px 0;
-    margin: 0 0px 30px 0;
+    margin: 0 0 30px 0;
 }
 
 
