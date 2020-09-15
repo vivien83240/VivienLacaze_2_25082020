@@ -174,12 +174,13 @@ section#section1 p
 
 #filtres li
 {
+    display: flex;
     margin: 0 50px 0 0;
 }
 
 #filtres li h2
 {
-    padding: 0 0 5px 0;
+    padding: 0 0 0 0;
 }
 
 #filtres li a
@@ -189,7 +190,7 @@ section#section1 p
     font-weight: bold;
     border: 3px solid #F2F2F2;
     border-radius: 100px;
-    padding: 10px 0 10px 0;
+    padding: 10px 0 6px 0;
     margin: 0;
 }
 
@@ -582,6 +583,7 @@ footer
         flex-direction: column;
         align-items: flex-start;
         padding: 0;
+        margin: 0;
     }
 
 
@@ -591,18 +593,19 @@ footer
         padding: 35px 0 40px 20px;
     }
 
-    
+/*////////////////////////////////////////////*/    
 
     nav ul
     {
         width: auto;
         padding: 0;
         justify-content: space-between;
-        
+        margin: 0 0 35px 0;
     }
 
     nav a
     {
+        width: auto;
         padding-bottom: 20px;
         border-bottom: 5px solid #F2F2F2; 
 
@@ -617,21 +620,42 @@ footer
         padding-bottom: 20px;
     }
 
+/*////////////////////////////////////////////*/
+
     #section1
     {
         width: auto;
         padding: 0px 20px 0px 20px;
     }
 
+/*////////////////////////////////////////////*/
+    
     #filtres
     {
         width: auto;
-        flex-wrap: wrap;
+        align-items: stretch;
+
+        flex-direction: column;
+        padding: 0;
+       margin: 0;
     }
+
+    #filtres li
+    {
+       width: auto
+       flex-wrap: wrap;
+       padding: 0;
+       margin: 0;
+    
+    }
+
+
+/*////////////////////////////////////////////*/
+
 
     #section2
     {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         width: auto;
         padding: 0;
@@ -659,12 +683,76 @@ footer
        
     }
     
-    
+/*////////////////////////////////////////////*/
+
 
     section#section2 aside
     {
         width: auto;
         border-radius: 0px;
+    }
+
+
+
+/*////////////////////////////////////////////*/
+    
+    #section3
+    {
+        width: auto;
+        padding: 0 20px 0 20px;
+
+    }
+
+    #activites_block
+    {
+        
+        flex-direction: column;
+        max-height: 3000px;     
+    }
+
+    .activites
+    {
+        width: auto;
+    }
+
+    .activites figure
+    {
+        height: 200px;
+    }
+
+    .activites2
+    {
+        width: auto;
+    }
+
+    .activites2 figure
+    {
+        height: 200px;
+    }
+
+  
+
+/*////////////////////////////////////////////*/
+
+    footer
+    {
+        width: auto; 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #footer_block
+    {
+
+        flex-direction: column;
+        
+
+    }
+
+    footer ul#footer_block li
+    {
+        width: auto; 
+
     }
 
 }
