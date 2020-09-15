@@ -489,8 +489,6 @@ section#section3 ul li figure a
 }
 
 
-
-
 .stars 
 {
     display: inline-flex;
@@ -498,7 +496,6 @@ section#section3 ul li figure a
     margin: 0;
     padding: 0;
 }
-
 
 .fa-star 
 {
@@ -674,9 +671,6 @@ footer
     #hebergements_block
     {
         flex-direction: column;
-        width: auto;
-
-
     }
 
     .hebergements
@@ -695,12 +689,10 @@ footer
         
     }
 
-    #populaires_block
-    {
-       
-        justify-content: space-between;
-        
-    }
+    section#section2 aside h1
+{
+    padding: 0  0px 0 0px;
+}
 
     .populaires
     {
@@ -716,7 +708,7 @@ footer
     #section3
     {
         width: auto;
-        padding: 0 20px 0 20px;
+        padding: 30px 20px 30px 20px;
 
     }
 
@@ -724,12 +716,15 @@ footer
     {
         
         flex-direction: column;
-        max-height: 3000px;     
+        max-height: 3000px;
+
+
     }
 
     .activites
     {
         width: auto;
+        margin: 0 0 30px 0; 
     }
 
     .activites figure
@@ -740,11 +735,15 @@ footer
     .activites2
     {
         width: auto;
+        margin: 0 0 30px 0;
+        padding: 0;
     }
 
     .activites2 figure
     {
         height: 200px;
+        margin: 0 0 30px 0;
+
     }
 
   
