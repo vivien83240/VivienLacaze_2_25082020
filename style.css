@@ -73,35 +73,44 @@ body header img
 /* Navigation ///////////////////////////////////////////////////////////////////////////////////*/
 
 
+nav
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 50px 0 0;
+}
+
 nav ul
 {
     list-style-type: none;
     display: flex;
-    margin-right: 20px;
-    margin-bottom: 41px;
+    margin: 0 30px 0 0;  
 }
 
-nav a
+
+nav ul li a
 {
     font-size: 1em;
     color: black;
     padding: 0px 30px 0 30px;
-    text-decoration: none;
+    margin: 0px 0px 40px 0;
+    text-decoration: none;  
 }
 
-nav a:hover
+nav ul li a:hover
 {
     color: #0065FC;
     border-top: 3px solid #0065FC;
-    padding-top: 42px;
+    padding-top: 43px;
 }
 
 #style_inscrire
 {
     font-weight: bold;
     color: #0065FC;
+    text-decoration: none;
+    margin: 0px 0px 40px 0;
 }
-
 
 
 /* Corps /////////////////////////////////////////////////////////////////////////////////*/
@@ -175,12 +184,12 @@ section#section1 p
 #filtres li
 {
     display: flex;
-    margin: 0 50px 0 0;
+    
 }
 
 #filtres li h2
 {
-    padding: 0 0 0 0;
+    padding: 0 0px 0 0;
 }
 
 #filtres li a
@@ -191,7 +200,7 @@ section#section1 p
     border: 3px solid #F2F2F2;
     border-radius: 100px;
     padding: 10px 0 6px 0;
-    margin: 0;
+    margin: 0 0 0 50px;
 }
 
 #filtres li a:hover
@@ -577,6 +586,7 @@ footer
     header
     {
         width: auto;
+        justify-content: ;
         flex-direction: column;
         align-items: flex-start;
         padding: 0;
@@ -587,34 +597,60 @@ footer
 
     body header img
     {
-        padding: 35px 0 40px 20px;
+        padding: 35px 0 0px 20px;
     }
 
 /*////////////////////////////////////////////*/    
 
+    nav
+    {
+        width: auto;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin: 0;
+        padding: ;
+
+    }
+
+   
     nav ul
     {
         width: auto;
-        padding: 0;
+        flex-wrap: ;
         justify-content: space-between;
-        margin: 0 0 35px 0;
+        padding: 0;
+        margin: 0;
     }
 
-    nav a
+    nav ul li
     {
-        width: auto;
-        padding-bottom: 20px;
-        border-bottom: 5px solid #F2F2F2; 
 
     }
 
-    nav a:hover
+
+    nav ul li a
+    { 
+        width: auto;
+        border-bottom: 3px solid #F2F2F2;
+        padding-bottom: 20px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    nav ul li a:hover
     {
         color: #0065FC;
         border-top: 0px;
         padding-top: 0px;
-        border-bottom: 5px solid #0065FC;
+        border-bottom: 3px solid #0065FC;
         padding-bottom: 20px;
+    }
+
+    #style_inscrire
+    {
+        width: auto;
+        margin: 0px 0px 40px 0;
     }
 
 /*////////////////////////////////////////////*/
@@ -622,7 +658,7 @@ footer
     #section1
     {
         width: auto;
-        padding: 0px 20px 0px 20px;
+        padding: 30px 20px 0px 20px;
     }
 
 /*////////////////////////////////////////////*/
@@ -630,20 +666,27 @@ footer
     #filtres
     {
         width: auto;
+        justify-content: space-between;
         align-items: stretch;
-
-        flex-direction: column;
+        flex-direction: ;
+        flex-wrap: wrap;
         padding: 0;
-       margin: 0;
+        margin: 0;
     }
 
     #filtres li
     {
        width: auto
-       flex-wrap: wrap;
-       padding: 0;
-       margin: 0;
-    
+    }
+
+    #filtres li a
+    {
+       margin: 0 0px 10px 0;
+    }
+
+    #filtres li h2
+    {
+        padding: 0 250px 0 0;
     }
 
 
@@ -717,8 +760,6 @@ footer
         
         flex-direction: column;
         max-height: 3000px;
-
-
     }
 
     .activites
