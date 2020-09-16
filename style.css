@@ -446,8 +446,6 @@ li.populaires a div h3,p
 {
     position: relative;
     max-height: 450px;
-    height: ;
-    width: ;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 1px 10px silver;
@@ -502,7 +500,7 @@ li.populaires a div h3,p
 
 #activites_block figure img
 {
-    
+    max-height: 120%;
 }
 
 #activites_block figure figcaption
@@ -792,6 +790,7 @@ footer
 
     #activites_block figure img
     {
+        max-height: none;
         width: 100%;
     }
 
