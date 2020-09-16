@@ -21,7 +21,7 @@ body
 {
 	font-family: Raleway, Arial, sans-serif;
 	color: #181818;
-    width: 100%;
+    width: ;
     padding: 0;
     margin: 0;
 }
@@ -166,6 +166,11 @@ section#section1 p
     padding: 14px 15px 14px 15px;
     position: relative;
     left: -8px;
+}
+
+.bouton_min
+{
+    display: none;
 }
 
 
@@ -599,7 +604,7 @@ footer
 {
 
 
-    header
+    /*header
     {
         width: auto;
         justify-content: ;
@@ -607,66 +612,84 @@ footer
         align-items: flex-start;
         padding: 0;
         margin: 0;
+    }*/
+
+    header
+    {
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px 0px 0 0px;
+        width: auto;
+        flex-direction: column; 
     }
-
-
 
     body header img
     {
         padding: 35px 0 0px 20px;
     }
 
-/*////////////////////////////////////////////*/    
-
-    nav
+    h1
     {
-        width: auto;
-        flex-direction: column-reverse;
-        justify-content: space-between;
-        align-items: flex-end;
-        margin: 0;
-        padding: ;
-
+        font-size: 1.4em;
     }
 
+/*////////////////////////////////////////////*/    
+
    
+
+    nav
+    { 
+        margin: 0 0 0 0;
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+
     nav ul
     {
-        width: auto;
-        flex-wrap: ;
-        justify-content: space-between;
-        padding: 0;
-        margin: 0;
+        margin: 0 0px 0 0;  
+        justify-content: center;
+        width: 100%;
+        flex-wrap: nowrap;
     }
 
     nav ul li
     {
+        border-bottom: 4px solid #F2F2F2;
+        width: 100%;
+        padding: 0 0px 15px 0px;
+        text-align: center;
 
     }
 
 
     nav ul li a
     { 
-        width: auto;
-        border-bottom: 3px solid #F2F2F2;
-        padding-bottom: 20px;
-        padding-right: 40px;
-        padding-left: 40px;
+        border-bottom: 0px solid #F2F2F2;
+        padding: 0;
+
     }
 
-    nav ul li a:hover
+    nav ul li:hover
     {
         color: #0065FC;
         border-top: 0px;
         padding-top: 0px;
-        border-bottom: 3px solid #0065FC;
-        padding-bottom: 20px;
+        border-bottom: 4px solid #0065FC;
+        padding-bottom: 15px;
+    }
+
+    nav ul li a:hover
+    {
+        color: none;
+        border-top: 0px;
+        padding-top: 0px;
     }
 
     #style_inscrire
     {
-        width: auto;
-        margin: 0px 0px 40px 0;
+        width: ;
+        margin: -30px 20px 40px 0;
     }
 
 /*////////////////////////////////////////////*/
@@ -674,11 +697,53 @@ footer
     #section1
     {
         width: auto;
-        padding: 30px 20px 0px 20px;
+        padding: 20px 20px 0px 20px;
     }
+
+
+/*////////////////////////////////////////////*/
+
+    .formulaire
+    {
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         margin: 0 0 20px 0;
+
+    }
+
+    .champ
+    {
+        width: 100%;
+        
+    }
+
+
+    .bouton
+    {
+        display: none;
+    }
+
+    .bouton_min
+    {
+        
+        display: block;
+        font-size: 1em;
+        color: white;
+        background-color: #0065FC;
+        border-radius: 15px 15px 15px 15px;
+        border: 1px solid #0065FC;
+        padding: 14px 18px 14px 18px;
+        position: relative;
+        left: -10px;
+        width: auto;
+    }
+
+
 
 /*////////////////////////////////////////////*/
     
+
     #filtres
     {
         width: auto;
