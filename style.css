@@ -181,7 +181,6 @@ section#section1 p
     justify-content: flex-start;
     align-items: center;
     list-style-type: none;
-    width: ;
     margin: 0px 0 0px 0;
     padding: 5px 0px 5px 0;
 }
@@ -433,8 +432,7 @@ li.populaires a div h3,p
 }
 
 #activites_block
-{
-   
+{ 
     list-style-type: none;
     margin: auto;
     padding: 10px 0 0 0;
@@ -443,7 +441,6 @@ li.populaires a div h3,p
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 40px;
-
 }
 
 #activites_block figure
@@ -479,7 +476,6 @@ li.populaires a div h3,p
 {
     grid-column: 3;
     grid-row: 1 / 3;
-
 }    
 
 #activites_block figure:nth-child(5)
@@ -652,7 +648,6 @@ footer
         width: 100%;
         padding: 0 0px 15px 0px;
         text-align: center;
-
     }
 
 
@@ -660,7 +655,6 @@ footer
     { 
         border-bottom: 0px solid #F2F2F2;
         padding: 0;
-
     }
 
     nav ul li:hover
@@ -674,14 +668,12 @@ footer
 
     nav ul li a:hover
     {
-        color: none;
         border-top: 0px;
         padding-top: 0px;
     }
 
     #style_inscrire
     {
-        width: ;
         margin: -30px 20px 40px 0;
     }
 
@@ -702,13 +694,11 @@ footer
          display: flex;
          justify-content: space-between;
          margin: 0 0 20px 0;
-
     }
 
     .champ
     {
         width: 100%;
-        
     }
 
 
@@ -719,7 +709,6 @@ footer
 
     .bouton_min
     {
-        
         display: block;
         font-size: 1em;
         color: white;
@@ -746,11 +735,6 @@ footer
         flex-wrap: wrap;
         padding: 0;
         margin: 0;
-    }
-
-    #filtres li
-    {
-       width: auto
     }
 
     #filtres li a
