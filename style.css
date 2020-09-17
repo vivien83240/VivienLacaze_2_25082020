@@ -1,4 +1,4 @@
-/* Définition des polices personnalisées */
+/* Définition des polices personnalisées ///////////////////////////////////////////////////////////*/
 
 @font-face
 {
@@ -6,54 +6,570 @@
     src: url('fonts/raleway-variablefont_wght-webfont.woff2') format('woff2'),
          url('fonts/raleway-variablefont_wght-webfont.woff') format('woff');
     src: url('fonts/raleway-variablefont_wght-webfont.ttf') format('truetype');       
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
-
 }
 
-/* Eléments principaux de la page */
+/*
+{
+	margin: 0;
+}
+
+/* Eléments principaux de la page ///////////////////////////////////////////////////////////////////*/
 
 body
 {
 	font-family: Raleway, Arial, sans-serif;
 	color: #181818;
-	margin: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+    
 
+h1
+{
+	font-size: 1.3em;
+	font-weight: 900;
+}
+
+h2
+{
+    font-size: 1.1em;
+}
+
+h3
+{
+    font-size: 1em;
+}
+
+p
+{
+    font-size: 0.9em;
 }
 
 
 
 
+/* Header ////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px 0px 0 50px; 
+}
+
+body header img
+{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
 
 
 
+/* Navigation ///////////////////////////////////////////////////////////////////////////////////*/
 
-/* Footer */
 
-footer
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 41px;
+}
+
+nav a
+{
+    font-size: 1em;
+    color: black;
+    padding: 0px 30px 0 30px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+    padding-top: 42px;
+}
+
+#style_inscrire
+{
+    font-weight: bold;
+    color: #0065FC;
+}
+
+
+
+/* Corps /////////////////////////////////////////////////////////////////////////////////*/
+
+/* Corps ////// SECTION 1 ////////////////////////////////////////////////////////////////*/
+
+
+#section1
+{
+    padding: 0 50px 0 50px;
+}
+
+section#section1 p
+{
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+
+.formulaire
+{
+     margin-bottom: 25px;
+}
+
+.fa-map-marker-alt
+{
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    padding: 15px 13px 15px 15px;
+    border: 2px solid #F2F2F2;
+}
+
+.champ
+{
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px solid #F2F2F2;
+    padding: 13px 15px 13px 15px;
+    position: relative;
+    left: -4px;
+}
+
+.bouton
+{
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 1em;
+    color: white;
+    background-color: #0065FC;
+    border-radius: 0px 15px 15px 0;
+    border: 1px solid #0065FC;
+    padding: 14px 15px 14px 15px;
+    position: relative;
+    left: -8px;
+}
+
+
+
+#filtres
 {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    width: ;
+    margin: 0px 0 0px 0;
+    padding: 5px 0px 5px 0;
+}
+
+#filtres li
+{
+    margin: 0 50px 0 0;
+}
+
+#filtres li h2
+{
+    padding: 0 0 5px 0;
+}
+
+#filtres li a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 3px solid #F2F2F2;
+    border-radius: 100px;
+    padding: 10px 0 10px 0;
+    margin: 0;
+}
+
+#filtres li a:hover
+{
+   background-color: #0065FC;
+   color: white;
+}
+
+
+.filtres_text
+{
+    padding: 0 20px 0 10px;
+}
+
+#filtres li a i
+{
+    width: 22px;
+    height: 22px;
+    font-size: 1em;
+}
+
+.icons_filtres
+{
+    margin: 0px;
+    text-align: center;
+    border-radius: 100px;
+    color: #0065FC;
+    background: #DEEBFF;
+    padding: 13px 13px 13px 13px;
+    position: relative;
+    left: -4px;
+}
+
+
+#information
+{
+    padding: 30px 0 10px 0;
+}
+
+.fa-info
+{
+    font-size: 10px;
+    color: #0065FC;
+    padding: 4px 7px 4px 8px;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+    margin: 0 10px 0px 0;
+}
+
+
+/* Corps ////// SECTION 2 ////////////////////////////////////////////////////////////////*/
+
+#section2
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+}
+
+
+/* Corps ////// SECTION 2 //////HEBERGEMENTS///////////////////////////////////////////////*/
+
+
+section#section2 article
+{
     background-color: #F2F2F2;
-    padding-top: 25px;
+    border-radius: 20px;
+    width: 60%;
+    padding: 20px 40px 0px 40px;   
+}
+
+
+section#section2 article ul li figure
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+section#section2 article ul li figure img
+{
+   max-width: 100%;
+   border-radius: 15px 15px 0 0;
+}
+
+section#section2 article ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+li.hebergements a h3
+{
+    margin: 10px 30px 0 20px;
+}
+
+li.hebergements a p
+{
+    margin: 5px 30px 0 20px;
+}
+
+li.hebergements a ul.stars
+{
+    margin: 5px 30px 0 20px;
+}
+
+section#section2 article a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+#hebergements_block
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 0 -10px 0;
+}
+
+
+.hebergements
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 200px;
+    background-color: white;
+    border: 4px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px silver;
+    overflow: hidden;
+    padding: 0 0 5px 0;
+    margin: 0 0 30px 0;
+}
+
+
+/* Corps ////// SECTION 2 //////POPULAIRES///////////////////////////////////////////////*/
+
+
+section#section2 aside
+{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 31%;
+    padding: 20px 0px 0px 0px;
+}
+
+section#section2 aside ul li a 
+{
+    text-decoration: none;
+    color: black;
+}
+
+section#section2 aside ul li figure
+{
+    width: 130px;
+    height: ;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+section#section2 aside ul li figure img
+{
+   max-height: 200px;
+   border-radius: 15px 0px 0 15px;
+}
+
+section#section2 aside h1
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px 0 35px;
+}
+
+li.populaires a h3,p,ul.stars
+{
+    margin: 10px 30px 0 20px;
+}
+
+li.populaires ul.stars
+{
+    padding: 30px 0 0 0;
+}
+
+#populaires_block
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0;
+}
+
+.populaires
+{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    border: 4px solid white;
+    box-shadow: 0px 1px 10px silver;
+    padding: 0;
+    margin: 0 40px 30px 40px;
+    height: 140px;
+    overflow: hidden;
+}
+
+
+
+/* Corps ////// SECTION 3 - ACTIVITES ////////////////////////////////////////////////////////*/
+
+
+
+#section3
+{ 
+    padding: 50px 50px 70px 50px;
+}
+
+#activites_block
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0 0 0;
+    max-height: 500px;
+}
+
+.activites
+{
+    width: 23%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px silver;
+}
+
+
+.activites figure img
+{
+    height: 450px;
+}
+
+.activites figure figcaption
+{
+    font-weight: bold;
+    padding: 12px 0 12px 20px;
+}
+
+.activites2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 23%;
+    
+}
+
+.activites2 figure
+{
+    height: 45%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px silver;
+    position: relative;
+}
+
+.activites2 figure img
+{
+    width: 100%;
+}
+
+.activites2 figure figcaption
+{
+    width: 100%;
+    font-weight: bold;
+    padding: 15px 0 15px 20px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    
+}
+
+section#section3 figure
+{
+    margin: 0;
+}
+
+section#section3 ul li figure a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.stars 
+{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.fa-star 
+{
+    color: #F2F2F2;
+    font-size: 0.8em;
+}
+
+.fa-star.gold 
+{
+    color: #0065FC;
+    font-size: 0.8em;
+}
+
+
+
+
+/* Footer /////////////////////////////////////////////////////////////////////////////// */
+
+
+footer
+{
+    background-color: #F2F2F2;
+    padding: 15px 50px 30px 50px; 
+}
+
+#footer_block
+{
+    display: flex;
+    padding-left: 0;
 }
 
 #a_propos
 {
-    width: 30%;
+    width: 33%;
+    list-style-type: none;
+    padding-left: 0;
 }
 
 #nos_hebergements
 {
-    width: 30%;
+    width: 33%;
+    list-style-type: none;
+    padding-left: 0;
 }
 
 #assistance
 {
-   width: 30%;
+   width: 33%;
+   list-style-type: none;
+   padding-left: 0;
 }
 
-#footers_liens
+.footers_liens
 {
-	
+	list-style-type: none;
+    padding-left: 0;
+    padding-top: 5px;
 }
+
+.footers_liens li 
+{
+    padding-bottom: 10px;
+}
+
+.footers_liens li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*Media queries*/
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
