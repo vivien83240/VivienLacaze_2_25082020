@@ -189,7 +189,6 @@ section#section1 p
 #filtres li
 {
     display: flex;
-    
 }
 
 #filtres li h2
@@ -598,21 +597,15 @@ footer
 
 
 
-/*Media queries*/
+/*////   Media queries   /////////////////////////////////////////////////////////////////////////////////////*/
+
+/*////    PHONE   ///////////////////////////////////////////////////////////////////////////////////////////*/
+
 
 @media (max-width: 575.98px)
 {
 
 
-    /*header
-    {
-        width: auto;
-        justify-content: ;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0;
-        margin: 0;
-    }*/
 
     header
     {
@@ -782,7 +775,7 @@ footer
         padding: 0;
     }
 
-    
+/*////////////////////////////////////////////*/    
 
     section#section2 article
     {
@@ -883,5 +876,157 @@ footer
         width: auto; 
 
     }
+
+}
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+/*////    TABLETTE     //////////////////////////////////////////////////////////////*/
+
+
+@media (min-width: 576px) and (max-width: 1199.98px)
+{
+
+
+    header
+    {
+        padding: 0px 0px 0 40px;
+        width: auto; 
+    }
+
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+
+    #filtres
+    {
+        padding: 0px 0px 0px 0;
+        width: auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        float: none;
+    }
+
+    #filtres li
+    {
+        margin: 0 0 10px 0;
+    }
+
+
+    #filtres li a
+    {
+        margin: 0 0 0px 0px;
+    }
+
+
+
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+        
+        #section2
+    {
+        justify-content: space-between;
+        
+        flex-direction: column-reverse;
+        padding: 0 20px 0 20px;
+        width: auto;
+    }
+
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+
+
+    section#section2 article
+    {
+        padding: 20px 20px 0px 20px;
+        width: auto;   
+    }
+
+
+    #hebergements_block
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0;
+        
+        margin: 0 0 -20px 0;
+    }
+
+
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+    
+
+    section#section2 aside
+    {
+        width: auto;
+        padding: 20px 10px 0px 10px;
+        margin: 0 0 30px 0;
+    }
+
+    section#section2 aside h1
+    { 
+        padding: 0 10px 0 10px;
+    }
+
+    #populaires_block
+    {
+        flex-direction: row;
+    }
+
+    .populaires
+    {
+        height: 150px;
+        margin: 0 5px 30px 5px;
+    }
+
+    .populaires_text
+    {
+        margin: 5px 5px 0 0;
+    }
+
+    li.populaires a div h3,p
+    {
+        margin: 5px 0px 0 0px;
+    }
+
+
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+
+    #section3
+    {
+        width: auto;
+        padding: 20px 40px 50px 40px;
+
+    }
+
+    #activites_block
+    {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        grid-gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    #activites_block figure
+    {
+        
+        height: 190px;
+        width: 46%;
+    }
+
+    #activites_block figure img
+    {
+        max-height: none;
+        width: 100%;
+    }
+
+
+
 
 }
