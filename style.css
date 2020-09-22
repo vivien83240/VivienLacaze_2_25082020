@@ -503,14 +503,14 @@ li.populaires a div h3,p
     max-height: 120%;
 }
 
-#activites_block figure figcaption
+#activites_block figure h3
 {
     width: 100%;
     font-weight: bold;
     padding: 15px 0 15px 20px;
     background-color: white;
     position: absolute;
-    bottom: 0px;
+    bottom: -16px;
 }
 
 
@@ -603,6 +603,7 @@ footer
 
 
 
+   
     header
     {
         justify-content: flex-start;
@@ -1008,8 +1009,4 @@ footer
         max-height: none;
         width: 100%;
     }
-
-
-
-
 }
