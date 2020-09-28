@@ -168,7 +168,7 @@ section#section1 p
     left: -8px;
 }
 
-.bouton_min
+.bouton > i
 {
     display: none;
 }
@@ -299,7 +299,7 @@ section#section2 article ul li a
     color: black;
 }
 
-li.hebergements a h4
+li.hebergements a figcaption
 {
     margin: 10px 30px 0 20px;
 }
