@@ -174,7 +174,6 @@ section#section1 p
 }
 
 
-
 #filtres
 {
     display: flex;
@@ -369,27 +368,13 @@ section#section2 aside
     padding: 20px 0px 0px 0px;
 }
 
-
-section#section2 aside ul li figure
-{
-    width: 60%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-section#section2 aside ul li figure img
-{ 
-   max-height: 150%;
-   border-radius: 15px 0px 0 15px;
-}
-
 section#section2 aside h2
 {
     display: flex;
     justify-content: space-between;
     padding: 0 35px 0 35px;
 }
+
 
 #populaires_block
 {
@@ -399,7 +384,7 @@ section#section2 aside h2
     padding: 0;
 }
 
-.populaires
+li.populaires
 {
     display: flex;
     background-color: white;
@@ -408,31 +393,48 @@ section#section2 aside h2
     box-shadow: 0px 1px 10px silver;
     padding: 0;
     margin: 0 40px 30px 40px;
-    height: 140px;
     overflow: hidden;
+    height: 140px;
 }
 
-.populaires_block_text
+li.populaires a
+{
+    display: flex;
+    text-decoration: none;
+    color: black; 
+}
+
+li.populaires img
+{ 
+   object-fit: cover;
+   width: 35%;
+   border-radius: 15px 0px 0 15px;
+}
+
+
+.populaires_text
 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-decoration: none;
-    color: black;
+    background-color: white;
+    height: 100%;
+}
+
+.populaires_text h4
+{
+    margin: 10px 15px 10px 20px;
+}
+
+.populaires_text p
+{
+    margin: -40px 0px 0px 20px;
+}
+
+.populaires_text ul.stars
+{
     margin: 0px 10px 5px 20px;
-    width: 300px;
 }
-
-.populaires_text
-{
-    margin: 5px 10px 0 0;
-}
-
-li.populaires a div h4,p
-{
-    margin: 10px 0px 0 0px;
-}
-
 
 
 
@@ -779,56 +781,53 @@ footer
     {
         flex-direction: column-reverse;
         align-items: center;
-        width: auto;
+        width: 100%;
         padding: 0;
     }
 
+
 /*////////////////////////////////////////////*/    
 
+   
     section#section2 article
     {
         width: auto;
-        padding: 15px 20px 0 20px;
+        padding: 0;
         background-color: white;
         border-radius: 0px;
+        margin: 15px 20px 0 20px;
     }
 
     ul#hebergements_block
     {
         flex-direction: column;
+        margin: 0 0 -10px 0;
     }
 
     li.hebergements
     {
-        width: 100%;
-        margin: 0 0 15px 0;
+        width: auto;
+        margin: 0 0px 15px 0px;
     }
 
-  
     
 /*////////////////////////////////////////////*/
 
 
     section#section2 aside
     {
-        width: 100%;
         border-radius: 0px;
+        width: 100%;  
     }
 
     section#section2 aside h2
     {
-        padding: 0  20px 0 20px;
+        padding: 0 20px 10px 20px;
     }
 
-    #populaires_block
+    li.populaires
     {
-        width: auto;
-        margin: 0 20px 20px 20px;
-    }
-
-    .populaires
-    {
-        margin: 0 0 15px 0;    
+        margin: 0 20px 15px 20px;
     }
 
 
@@ -860,7 +859,6 @@ footer
         width: 100%;
     }
 
-  
 
 /*////////////////////////////////////////////*/
 
@@ -965,17 +963,17 @@ footer
 
 /*///////////////////////////////////////////*/
 /*///////////////////////////////////////////*/
-    
+
 
     section#section2 aside
-    {
+    {  
         width: auto;
-        padding: 20px 10px 0px 10px;
+        padding: 20px 15px 0px 15px;
         margin: 0 0 30px 0;
     }
 
     section#section2 aside h2
-    { 
+    {  
         padding: 0 10px 0 10px;
     }
 
@@ -984,20 +982,25 @@ footer
         flex-direction: row;
     }
 
-    .populaires
+    li.populaires
     {
-        height: 150px;
         margin: 0 5px 30px 5px;
+        height: 150px;
     }
 
-    .populaires_text
+    .populaires_text h4
     {
-        margin: 5px 5px 0 0;
+        margin: 10px 5px 10px 10px;
     }
 
-    li.populaires a div h4,p
+    .populaires_text p
     {
-        margin: 5px 0px 0 0px;
+        margin: -40px 0px 0px 10px;
+    }
+
+    .populaires_text ul.stars
+    {
+        margin: 0px 10px 5px 10px;
     }
 
 
