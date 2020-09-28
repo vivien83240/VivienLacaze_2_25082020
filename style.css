@@ -286,50 +286,13 @@ section#section2 article
     padding: 20px 40px 0px 40px;   
 }
 
-
-section#section2 article ul li figure
-{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-section#section2 article ul li figure img
-{
-   max-width: 100%;
-   border-radius: 15px 15px 0 0;
-}
-
-section#section2 article ul li a
+section#section2 article > a
 {
     text-decoration: none;
     color: black;
 }
 
-li.hebergements a figcaption
-{
-    font-weight: bold;
-    margin: 10px 30px 0 20px;
-}
-
-li.hebergements a p
-{
-    margin: 5px 30px 0 20px;
-}
-
-li.hebergements a ul.stars
-{
-    margin: 5px 30px 0 20px;
-}
-
-section#section2 article a
-{
-    text-decoration: none;
-    color: black;
-}
-
-
-#hebergements_block
+ul#hebergements_block
 {
     display: flex;
     justify-content: space-between;
@@ -339,10 +302,9 @@ section#section2 article a
 }
 
 
-.hebergements
+li.hebergements
 {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     width: 30%;
     height: 200px;
@@ -353,6 +315,46 @@ section#section2 article a
     overflow: hidden;
     padding: 0 0 5px 0;
     margin: 0 0 30px 0;
+    position: relative;
+    
+}
+
+li.hebergements a 
+{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;  
+}
+
+li.hebergements img
+{
+   max-width: 100%;
+   border-radius: 15px 15px 0 0;
+}
+
+.hebergements_text
+{
+    display: block;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.hebergements_text h4
+{
+    margin: 10px 5px 0 15px;
+}
+
+.hebergements_text p
+{
+    margin: 5px 5px 0 15px;
+}
+
+.hebergements_text ul.stars
+{
+    margin: 5px 5px 5px 15px;
 }
 
 
@@ -726,7 +728,6 @@ footer
 
     .bouton
     {
-        
         border-radius: 15px 15px 15px 15px;
         padding: 14px 18px 14px 18px;
         position: relative;
@@ -792,16 +793,18 @@ footer
         border-radius: 0px;
     }
 
-    #hebergements_block
+    ul#hebergements_block
     {
         flex-direction: column;
     }
 
-    .hebergements
+    li.hebergements
     {
-        width: auto;
+        width: 100%;
         margin: 0 0 15px 0;
     }
+
+  
     
 /*////////////////////////////////////////////*/
 
