@@ -10,11 +10,11 @@
     
     <body>
             <header>
-            	
+                
                 <img src="images/logo/Reservia.svg" alt="Logo de Reservia" />  
                 
 
-            	<nav>
+                <nav>
                     <ul>
                         <li><a href="#section2">Hébergements</a></li>
                         <li><a href="#section3">Activités</a></li>
@@ -33,9 +33,9 @@
                     <form action="formulaire" class="formulaire">
                         <i class="fas fa-map-marker-alt"></i>   
                         <input class="champ" type="Search" name="q" value="Marseille, France"/>
-                        <button class="bouton" type="submit" value="Submit">Rechercher</button>
-                        <button class="bouton_min" type="submit" value="Submit"><i class="fas fa-search"></i></button>
+                        <button class="bouton" type="submit" value="Submit"><span id="rechercher">Rechercher</span><i class="fas fa-search"></i></button>
                     </form>
+                        
                    
 
                     <ul id="filtres">
@@ -62,8 +62,8 @@
                                     </a>
                                 </figure>
                                 <a href="#"> 
-                                 <h4>Auberge la Cannebière</h4>
-                                 <p>Nuit à partir de <b>25€</b></p>
+                                 <figcaption>Auberge la Cannebière</figcaption>
+                                 <p>Nuit à partir de <span>25€</span></p>
                                  <ul class="stars">
                                         <li><i class="fa fa-star gold"></i></li>
                                         <li><i class="fa fa-star gold"></i></li>
@@ -81,8 +81,8 @@
                                     </a>
                                 </figure>
                                 <a href="#"> 
-                                 <h4>Hôtel du port</h4>
-                                 <p>Nuit à partir de 52<b>€</b></p>
+                                 <figcaption>Hôtel du port</figcaption>
+                                 <p>Nuit à partir de 52<span>€</span></p>
                                  <ul class="stars">
                                         <li><i class="fa fa-star gold"></i></li>
                                         <li><i class="fa fa-star gold"></i></li>
@@ -100,8 +100,8 @@
                                     </a>
                                 </figure>
                                 <a href="#"> 
-                                 <h4>Hôtel Les mouettes</h4>
-                                 <p>Nuit à partir de 76<b>€</b></p>
+                                 <figcaption>Hôtel Les mouettes</figcaption>
+                                 <p>Nuit à partir de 76<span>€</span></p>
                                  <ul class="stars">
                                         <li><i class="fa fa-star gold"></i></li>
                                         <li><i class="fa fa-star gold"></i></li>
@@ -119,8 +119,8 @@
                                     </a>
                                 </figure>
                                 <a href="#"> 
-                                 <h4>Hôtel de la mer</h4>
-                                 <p>Nuit à partir de 46<b>€</b></p>
+                                 <figcaption>Hôtel de la mer</figcaption>
+                                 <p>Nuit à partir de 46<span>€</span></p>
                                  <ul class="stars">
                                         <li><i class="fa fa-star gold"></i></li>
                                         <li><i class="fa fa-star gold"></i></li>
@@ -138,8 +138,8 @@
                                     </a>
                                 </figure>
                                 <a href="#"> 
-                                 <h4>Auberge Le Panier</h4>
-                                 <p>Nuit à partir de <b>23€</b></p>
+                                 <figcaption>Auberge Le Panier</figcaption>
+                                 <p>Nuit à partir de <span>23€</span></p>
                                  <ul class="stars">
                                         <li><i class="fa fa-star gold"></i></li>
                                         <li><i class="fa fa-star gold"></i></li>
@@ -157,8 +157,8 @@
                                     </a>
                                 </figure>
                                 <a href="#"> 
-                                 <h4>Hôtel chez Amina</h4>
-                                 <p>Nuit à partir de 96<b>€</b></p>
+                                 <figcaption>Hôtel chez Amina</figcaption>
+                                 <p>Nuit à partir de 96<span>€</span></p>
                                  <ul class="stars">
                                         <li><i class="fa fa-star gold"></i></li>
                                         <li><i class="fa fa-star gold"></i></li>
@@ -186,7 +186,7 @@
                                 <a class="populaires_block_text" href="#">
                                     <div class="populaires_text">  
                                         <h4>Hôtel Le soleil du matin</h4>
-                                        <p>Nuit à partir de 128<b>€</b></p>
+                                        <p>Nuit à partir de 128<span>€</span></p>
                                     </div>
                                     <ul class="stars">
                                         <li><i class="fa fa-star gold"></i></li>
@@ -207,7 +207,7 @@
                                 <a class="populaires_block_text" href="#"> 
                                     <div class="populaires_text">
                                         <h4>Au coeur de l'eau Chambres d'hôtes</h4>
-                                        <p>Nuit à partir de 71<b>€</b></p>
+                                        <p>Nuit à partir de 71<span>€</span></p>
                                     </div>
                                     <ul class="stars">
                                         <li><i class="fa fa-star gold"></i></li>
@@ -228,7 +228,7 @@
                                 <a class="populaires_block_text" href="#">
                                     <div class="populaires_text">
                                         <h4>Hôtel Tout bleu et Blanc</h4>
-                                        <p>Nuit à partir de 68<b>€</b></p>
+                                        <p>Nuit à partir de 68<span>€</span></p>
                                     </div>
                                     <ul class="stars">
                                         <li><i class="fa fa-star gold"></i></li>
@@ -253,28 +253,28 @@
                         <figure>
                          <a href="#">   
                             <img src="images/activites/vieux_port.jpg" alt="Photo du Vieux Port" />
-                            <h4>Vieux Port</h4>
+                            <figcaption>Vieux Port</figcaption>
                          </a>
                         </figure>
                    
                         <figure>
                          <a href="#">   
                             <img src="images/activites/fort_de_pomegues.jpg" alt="Photo du Fort de Pomègues" />
-                            <h4>Fort de Pomègues</h4>
+                            <figcaption>Fort de Pomègues</figcaption>
                          </a>
                         </figure>
                       
                         <figure>
                          <a href="#">   
                             <img src="images/activites/iles_du_frioul.jpg" alt="Photo des îles du Frioul" />
-                            <h4>îles du Frioul</h4>
+                            <figcaption>îles du Frioul</figcaption>
                          </a>
                         </figure>
                     
                         <figure>
                          <a href="#">   
                             <img src="images/activites/parc_national_des_calanques.jpg" alt="Photo du Parc National des Calanques" />
-                            <h4>Parc National des Calanques</h4>
+                            <figcaption>Parc National des Calanques</figcaption>
                          </a>
                         </figure>
                     
@@ -282,7 +282,7 @@
                         <figure>
                          <a href="#">   
                             <img src="images/activites/notre-dame-de-la-garde.jpg" alt="Photo de Notre-Dame-de-la-Garde" />
-                            <h4>Notre-Dame-de-la-Garde</h4>
+                            <figcaption>Notre-Dame-de-la-Garde</figcaption>
                          </a>
                         </figure>
                     
@@ -290,7 +290,7 @@
                         <figure>
                          <a href="#">   
                             <img src="images/activites/parc_longchamp.jpg" alt="Photo du Parc Longchamp" />
-                            <h4>Parc Longchamp</h4>
+                            <figcaption>Parc Longchamp</figcaption>
                          </a>
                         </figure>
                 </div>
