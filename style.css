@@ -726,21 +726,23 @@ footer
 
     .bouton
     {
-        display: none;
-    }
-
-    .bouton_min
-    {
-        display: block;
-        font-size: 1em;
-        color: white;
-        background-color: #0065FC;
+        
         border-radius: 15px 15px 15px 15px;
-        border: 1px solid #0065FC;
         padding: 14px 18px 14px 18px;
         position: relative;
         left: -10px;
         width: auto;
+    }
+
+
+    .bouton > i
+    {
+        display: block;
+    }
+
+    #rechercher
+    {
+        display: none;
     }
 
 
